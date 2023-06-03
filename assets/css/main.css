@@ -1880,6 +1880,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		white-space: nowrap;
 	}
 
 		ul li {
@@ -2355,12 +2356,13 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 25%;
 		}
 
 			.image.main img {
 				width: 100%;
 			}
+		
 
 			@media screen and (max-width: 736px) {
 
